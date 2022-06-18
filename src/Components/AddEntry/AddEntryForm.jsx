@@ -12,7 +12,8 @@ const AddEntryForm = (props) => {
             weight: weight,
             date: date
         };
-        console.log(newEntry)
+        console.log(newEntry);
+        props.addNewEntryProperty(newEntry)
     }
 
     return ( 
