@@ -18,7 +18,7 @@ function App() {
     <div>
       <DisplayEntries parentEntries={entries} />
       <AddEntryForm addNewEntryProperty={addNewEntry} />
-      <EntriesChartTracker />
+      <EntriesChartTracker parentEntries={entries}/>   
     </div>
   );
 }
